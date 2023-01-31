@@ -1,0 +1,47 @@
+a{
+    border-width: 1px;
+    border-style:solid;
+    border-color: black;
+    text-decoration:none;
+}
+body{
+    color: black;
+}
+h1{
+    width: 300px;
+    height: 300px;
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: darkgray;*/
+
+    border: 10px solid darkgreen;
+
+    /*padding-top: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 10px;*/
+
+    /*padding: 10px 10px 10px 10px;*/
+    padding: 10px;
+
+    /*margin-top: 20px; 
+    margin-right: 20px; 
+    margin-bottom: 40px;
+    margin-left: 20px;*/
+
+    margin: 20px auto 40px auto;
+
+    /*outline-width: 5px; 
+    outline-style: dashed;
+    outline-color: salmon;*/
+
+    outline: 5px dashed salmon;
+}
+footer{
+    padding: 1px;
+    background-color: blue;
+}
+
+
+/*Modelo de Caixas na prática (parte 2) - @Curso em Vídeo HTML5 e CSS3
+07:27*/

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+    SELETORES PERSONALIZADOS
+    
+    NO HTML:
+    em HTML é ID = CSS é # - único elemento (mais forte)
+    em HTML é class = CSS é . - para múltiplos elementos
+    
+    NO CSS:
+    # = ID
+    . = class
+    : = pseudoclass
+    :: = pseudoelemento
+    > = children
+*/
+
+body{
+    font-family: sans-serif;
+}
+div.caixa{
+    border: 23px;
+    background-color: aquamarine;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(81, 0, 255);
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+a:active{
+    color: darkorange;
+}
+a::after{
+    content: ' [link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(187, 187, 187);
+}

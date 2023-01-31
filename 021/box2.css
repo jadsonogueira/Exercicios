@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 221, 210);
+    margin: 0;
+}
+
+header{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    border: solid;
+    border-image: linear-gradient(red, blue) 27;
+    
+}
+
+h2{
+    text-shadow: 1px 1px 1px rgb(188, 188, 188);
+
+}
+
+nav {
+    background-color: rgb(94, 94, 94);
+    padding: 10px;
+    box-shadow: 5px 3px 7px 2px rgba(0, 0, 0, 0.102);
+    border-radius: 10px 1px 10px 1px ;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    
+}
+nav a:hover{
+    color: rgb(55, 54, 54);
+}
+
+main{
+    background-color: wheat;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+article{
+    background-color: rgb(208, 214, 193);
+}
+article > aside{
+    background-color: rgb(185, 185, 185);
+    color: black;
+}
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+}
+footer > p{
+    margin: 0px;
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.102);
+  
+}
+#noticias{
+    color: rgb(53, 53, 53);
+}
+#assuntos{
+    color: brown;
+}

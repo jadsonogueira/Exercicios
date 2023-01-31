@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
+
+@font-face {
+    font-family: cute;
+    src: url(fonts/cute.ttf) format(truetype);
+    /* Tipos de formatos:
+    - opentype (otf);
+    - truetype (ttf);
+    - embedded-opentype
+    -truetype-aat (apple advanced typography);
+    - svg
+    */
+}
+
+body{
+    font-family: 'Chivo Mono', sans-serif, monospace;
+    
+}
+h1{
+    font-family: cute;
+}
